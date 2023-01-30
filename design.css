@@ -1,0 +1,62 @@
+:root {
+    --light-white: white;
+    --light-blue: rgba(61, 61, 104, 0.65);
+    --dark-blue:  rgb(21, 21, 57);
+    --light-gray:  rgb(170, 164, 164);
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color:#b899ff;
+background-image:
+radial-gradient(at 98% 80%, hsla(241,67%,72%,1) 0px, transparent 50%),
+radial-gradient(at 41% 3%, hsla(298,78%,67%,1) 0px, transparent 50%),
+radial-gradient(at 38% 92%, hsla(330,80%,69%,1) 0px, transparent 50%),
+radial-gradient(at 49% 64%, hsla(61,97%,78%,1) 0px, transparent 50%),
+radial-gradient(at 47% 12%, hsla(171,60%,73%,1) 0px, transparent 50%),
+radial-gradient(at 72% 40%, hsla(348,96%,60%,1) 0px, transparent 50%),
+radial-gradient(at 72% 53%, hsla(109,71%,61%,1) 0px, transparent 50%);
+  }
+  
+.game-card {
+    transform: scale(0.9);
+    background-color: var(--light-white);
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px var(--light-blue);
+}
+
+.intro {
+    background-color: var(--light-blue);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(45, 45, 63);
+}
+
+.odds {
+    line-height: 2px;
+    background-color: var(--dark-blue);
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(253, 246, 246, 0.85);
+    border-radius: 10px;
+}
+
+.betting {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--light-gray);
+    position: relative;
+}
+
+.betting-days {
+    font-size: 15px;
+    max-width: 320px;
+    margin: auto;
+}
